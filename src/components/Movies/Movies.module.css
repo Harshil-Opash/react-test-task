@@ -1,0 +1,11 @@
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    /* width: min-content; */
+}
+.card{
+    padding: 0 0.5rem;
+}

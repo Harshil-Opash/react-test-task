@@ -1,0 +1,15 @@
+.container{
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+    font-size: larger;
+}
+@media (max-width:650px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
