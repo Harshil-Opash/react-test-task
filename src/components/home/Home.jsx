@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
+    <div className={style.content}>
       <Title title='Popular Titles' />
       <div className={style.container}>
         <Link to="series">
@@ -14,7 +15,10 @@ const Home = () => {
         <Link to="movies">
           <Card name="Popular Movies" site="https://picsum.photos/200" />
         </Link>
+      
       </div>
+      </div>
+     
     </>
   )
 }

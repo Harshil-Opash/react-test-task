@@ -13,3 +13,9 @@
         align-items: center;
     }
 }
+@media (min-width:651px){
+
+    .content{
+        height : calc(100vh - 220px)
+    }
+}

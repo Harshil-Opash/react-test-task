@@ -1,0 +1,25 @@
+.footer{
+    width: 85%;
+    margin: 0 auto;
+    /* height: 200px; */
+    height: auto;
+}
+.logo{
+    display: flex;
+   justify-content: space-between;
+   padding-bottom: 1rem;
+}
+.img{
+    width:60%;
+}
+.icon{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.option{
+    padding: 1rem 0;
+}
+.demo{
+    padding-bottom: 1rem;
+}
